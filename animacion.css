@@ -1,0 +1,198 @@
+
+body {
+    height: 95vh;
+    background-image:url("https://img.freepik.com/vector-gratis/vector-fondo-sala-estar-ilustracion-interior-dibujos-animados-plantilla-fondo-sofa-tv-ventana-silla_566075-32.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: auto;
+    position: absolute;
+
+}
+.caminando{
+    left:-50%; 
+    bottom:-10px;
+    transform: translate(150px);
+    animation: caminando 5s linear ;
+}
+@keyframes caminando{
+    0%{
+        transform: translate(150px,0);
+    }
+    25%{
+        transform: translate(500px,0);
+    }
+    100%{
+        transform: translate(2500px,0);
+    }
+}
+
+.botella{
+    
+    width: 110px;
+    height: 150px;
+    background-image: url("https://i.pinimg.com/originals/7d/cf/96/7dcf9687e749aaa45a54bcf4e0063d9a.png");
+    left:250px; 
+    bottom:-10px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation: botella 1s linear ;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+@keyframes botella{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(90deg) ;
+    }
+}
+.derrame{
+    background-image: url("https://i.pinimg.com/originals/e7/ba/8e/e7ba8e8fcb89c72a38cd7caa58c72ed6.png");
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 150px;
+    height: 50px;
+    left:350px; 
+    bottom:15px;
+    animation: derrame 2s linear ;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+@keyframes derrame{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1 ;
+    }
+}
+.acostado{
+    background-image: url("https://cdn.pixabay.com/photo/2020/06/09/21/18/cat-5280091_960_720.png");
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 250px;
+    height: 200px;
+    right:350px; 
+}
+.bola{
+    background-image: url("https://www.plan24pet.com/descarga/images/bola.png");
+    
+    background-size:cover;
+    width: 100px;
+    height: 100px;
+    right:425px; 
+    animation: bola 5.5s linear ;
+}
+@keyframes bola{
+    0%{
+        
+        transform: rotate(0deg) translate(0px,0px);
+    }
+    20%{
+        transform: rotate(-60deg) translate(0px,-200px);
+    }
+    40%{
+        transform: rotate(0deg) translate(0px,0px);
+    }
+    60%{
+        transform: rotate(60deg) translate(0px,-200px);
+    }
+    80%{
+        transform: rotate(0deg) translate(0px,0px);
+    }
+    90%{
+        transform: rotate(-60deg) translate(0px,-200px);
+    }
+    100%{
+        transform: rotate(0deg) translate(0px,0px);
+    }
+}
+.avion{
+    background-image: url("https://www.seekpng.com/png/full/404-4046523_slide-gato-en-avion-dibujo.png");
+    background-size: cover;
+    width: 255px;
+    height: 210px;
+    top:10px;
+    left:-100px;
+    animation: avion 5s linear  ;
+}
+@keyframes avion{
+    0%{
+        transform: translate(150px,0) rotate(20deg);
+    }
+    25%{
+        transform: translate(500px,0) rotate(-20deg);
+    }
+    100%{
+        transform: translate(2000px,0) rotate(20deg);
+    }
+}
+
+.gato{
+    background-image: url("https://images.vexels.com/media/users/3/204679/isolated/preview/abc9403594fe735e6139fe3f131b0f05-gato-mirando-hacia-arriba-silueta-gato.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    left:500px;
+    bottom:220px;
+    animation: gato 5s linear;
+}
+@keyframes gato{
+    0%{  
+        transform: translate(0px,0px);
+    }
+    20%{
+        transform: translate(0px,-150px);
+    }
+    50%{
+        transform: translate(0px,0px);
+    }
+    85%{  
+        transform: translate(0px,0px);
+    }
+    95%{
+        transform: translate(0px,-150px);
+    }
+    100%{  
+        transform: translate(0px,0px);
+    }
+}
+.gato2{
+    background-image: url("http://todovector.com/vector/animales/terrestres/gatos/siluetas-de-gatos/338.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    right:100px;
+    bottom:220px;
+    animation: gato2 5s linear;
+}
+@keyframes gato2{
+    0%{  
+        transform: translate(0px,0px);
+    }
+    20%{
+        transform: translate(0px,0px);
+    }
+    50%{
+        transform: translate(0px,0px);
+    }
+    70%{  
+        transform: translate(0px,-150px);
+    }
+    90%{
+        transform: translate(0px,0px);
+    }
+    100%{  
+        transform: translate(0px,0px);
+    }
+}
